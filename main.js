@@ -52,7 +52,7 @@ function datas() {
   }
 
   //Adiciona linha a tabela
-  tr.appendChild(edt);
+  tr.appendChild(del);
 
   tableBody.appendChild(tr);
 

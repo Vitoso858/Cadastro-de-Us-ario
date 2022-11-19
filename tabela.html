@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome/fontawesome2/css/all.min.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>Cadastro de Usuário</h1>
+      <div class="icon">
+        <input type="text" class="input" placeholder="Nome" /><i
+          class="fa-solid fa-user"
+        ></i>
+      </div>
+      <div class="icon">
+        <input type="number" class="input" placeholder="Idade" />
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <label for="genero">Gênero</label>
+      <div class="gender" id="genero">
+        <input type="radio" name="q1" value="Masculino" />Masculino
+        <input type="radio" name="q1" value="Feminino" />Feminino
+      </div>
+      <div class="icon">
+        <input type="text" class="input" placeholder="Profissão" />
+        <i class="fa-solid fa-briefcase"></i>
+      </div>
+      <button id="Submit-Btn">Enviar</button>
+    </div>
+
+    <div class="tabela">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">NOME</th>
+            <th scope="col">IDADE</th>
+            <th scope="col">GÊNERO</th>
+            <th scope="col">PROFISSÃO</th>
+
+            <th>Remover Usuário</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -32,6 +32,13 @@ h1 {
   height: 27em;
 }
 
+p {
+  position: relative;
+  top: 7em;
+  color: red;
+  font-weight: bold;
+  font-size: 19px;
+}
 label {
   position: relative;
   left: -6.2em;
@@ -39,6 +46,7 @@ label {
   font-weight: 700;
   color: gray;
 }
+
 .gender {
   position: relative;
   top: -0.1em;
@@ -174,4 +182,11 @@ tr td {
   table {
     width: 50em;
   }
+}
+
+.update {
+  width: 10em;
+  border: none;
+  color: blue;
+  padding: 0em;
 }

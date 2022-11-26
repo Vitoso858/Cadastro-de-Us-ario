@@ -14,30 +14,39 @@
     />
     <link rel="stylesheet" href="fontawesome/fontawesome2/css/all.min.css" />
   </head>
+
   <body>
     <div class="form">
       <h1>Cadastro de Usuário</h1>
       <div class="icon">
-        <input type="text" class="input" placeholder="Nome" /><i
+        <input type="text" class="input" placeholder="Nome" id="name" /><i
           class="fa-solid fa-user"
         ></i>
       </div>
+
       <div class="icon">
-        <input type="number" class="input" placeholder="Idade" />
+        <input id="age" type="number" class="input" placeholder="Idade" />
         <i class="fa-solid fa-user"></i>
       </div>
-      <label for="genero">Gênero</label>
-      <div class="gender" id="genero">
+
+      <label for="gender">Gênero</label>
+      <div class="gender" id="gender">
         <input type="radio" name="q1" value="Masculino" />Masculino
         <input type="radio" name="q1" value="Feminino" />Feminino
       </div>
+
       <div class="icon">
-        <input type="text" class="input" placeholder="Profissão" />
+        <input
+          type="text"
+          class="input"
+          id="profession"
+          placeholder="Profissão"
+        />
         <i class="fa-solid fa-briefcase"></i>
       </div>
       <button id="Submit-Btn">Enviar</button>
     </div>
-
+    <p></p>
     <div class="tabela">
       <table>
         <thead>
@@ -46,13 +55,13 @@
             <th scope="col">IDADE</th>
             <th scope="col">GÊNERO</th>
             <th scope="col">PROFISSÃO</th>
-            <th>Remover Usuário</th>
+            <th>Editar Usuário</th>
           </tr>
         </thead>
         <tbody></tbody>
         <tfoot></tfoot>
       </table>
     </div>
-    <script src="main.js"></script>
+    <script src="main2.js"></script>
   </body>
 </html>
